@@ -10,6 +10,7 @@ import random
 import string
 from io import StringIO
 import os
+from mysql.connector import Error
 
 # Set page configuration
 st.set_page_config(
